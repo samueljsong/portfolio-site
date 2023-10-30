@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+}
+
+body{
+    height: 90vh;
+    width: 100%;
+    background: #272727;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.064) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.064) 1px, transparent 1px);
+    background-size: 6rem 6rem;
+    display: grid;
+    place-items: center;
+}
+
+.name{
+    font-size: 5rem;
+}
