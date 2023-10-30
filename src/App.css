@@ -1,17 +1,40 @@
 *{
     margin: 0;
+    font-family: 'Raleway';
 }
 
 body{
-    height: 90vh;
+    height: 100vh;
     width: 100%;
-    background: #272727;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.064) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.064) 1px, transparent 1px);
-    background-size: 6rem 6rem;
+    background: #1f1f1f;
+    /* this is for grid */
+    /* background-image: linear-gradient(rgba(255, 255, 255, 0.034) 1px, transparent 1px), 
+    linear-gradient(90deg, rgba(255, 255, 255, 0.034) 1px, transparent 1px);
+    background-size: 6rem 6rem; */
     display: grid;
     place-items: center;
 }
 
-.name{
-    font-size: 5rem;
+#cursor-border{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: solid 1px white;
+    z-index: 10000;
+    pointer-events: none;
+}
+
+#cursor{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 10001;
+    pointer-events: none;
 }
