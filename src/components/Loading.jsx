@@ -11,17 +11,18 @@ export const Loading = (props) => {
     }, [])
 
     return(
-        
-        <motion.div initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}} transition={{duration: "1"}} className="loading">
-            <motion.div exit={{opacity: 0}}  className='obj'></motion.div>
-            <motion.div exit={{opacity: 0}}  className='obj'></motion.div>
-            <motion.div exit={{opacity: 0}}  className='obj'></motion.div>
-            <motion.div exit={{opacity: 0}}  className='obj'></motion.div>
-            <motion.div exit={{opacity: 0}}  className='obj'></motion.div>
-            <motion.div exit={{opacity: 0}}  className='obj'></motion.div>
-            <motion.div exit={{opacity: 0}}  className='obj'></motion.div>
-            <motion.div exit={{opacity: 0}}  className='obj'></motion.div>
-        </motion.div>
+        <div className='loading-container'>
+            <motion.div initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}} transition={{duration: "1"}} className="loading">
+                <motion.div exit={{opacity: 0}}  className='obj'></motion.div>
+                <motion.div exit={{opacity: 0}}  className='obj'></motion.div>
+                <motion.div exit={{opacity: 0}}  className='obj'></motion.div>
+                <motion.div exit={{opacity: 0}}  className='obj'></motion.div>
+                <motion.div exit={{opacity: 0}}  className='obj'></motion.div>
+                <motion.div exit={{opacity: 0}}  className='obj'></motion.div>
+                <motion.div exit={{opacity: 0}}  className='obj'></motion.div>
+                <motion.div exit={{opacity: 0}}  className='obj'></motion.div>
+            </motion.div>
+        </div>
             
     )
 }

@@ -1,0 +1,6 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
