@@ -14,7 +14,7 @@ export const Contact = (props) => {
             <motion.p>
                 Send me an email to get in touch at semuall0108@gmail.com
             </motion.p>
-            <form action="https://formsubmit.co/el/votovo" method="POST">
+            <form action="https://formsubmit.co/semuall0108@gmail.com" method="POST">
                 <input className='name-input' type="text" name='name' required placeholder='Name'/>
                 <input className='email-input' type="email" name='email' required placeholder='Email'/>
                 <textarea className='message-input' type="text" name='message' required placeholder='Message'></textarea>
