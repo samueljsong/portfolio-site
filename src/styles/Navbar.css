@@ -8,6 +8,11 @@
     align-items: end;
 }
 
+.logo{
+    height: 3rem;
+    width: 3rem;
+}
+
 .page-directories{
     display: flex;
     gap: 1rem;
