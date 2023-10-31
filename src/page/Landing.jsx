@@ -32,7 +32,8 @@ export const Landing = (props) => {
                 animate={{opacity: 1, y: 0, x:0}} 
                 transition={{duration: "0.25", delay: delay[1]}} 
                 className='info-1'>
-                    Your friendly neighborhood frontend developer, UX architect, and JavaScript engineer. I spend my days (and often nights) painting the Internet canvas with PROJECTS and lines of code, turning zeroes and ones into immersive, interactive experiences,
+                    A full-stack, front-end, and JavaScript developer. Most of my time is spent on creating PROJECTS with exceptional digital experiences. 
+                    Currently, I'm focused on implementing cutting-edge technologies to further enhance interactive experiences on the web.
             </motion.p>
             
             <motion.p 
@@ -40,11 +41,12 @@ export const Landing = (props) => {
                 animate={{opacity: 1, y: 0, x:0}} 
                 transition={{duration: "0.25", delay: delay[2]}} 
                 className='info-2'>
-                    Bona fide photochromic LENS enthusiast - sunlight or indoors, I've got it covered. I tread the path of minimalism, finding beauty in simplicity and order. When I'm not crafting beautiful web experiences, you can find me reading ARTICLES or swaying to the rhythm of Pop Music & Jazz, losing myself in the captivating flow of melodies. anyways you can CONTACT ME
+                    When I'm not crafting immersive web experiences, I revel in the enchanting world of paper, whether it be romance, comedy, or motivational.
+                    As a food fanatic, you can also find me binge watching all seasons of Kitchen Nightmare. That's enough for introductions, lets learn why you should CONTACT ME.
             </motion.p>
             
             <motion.div initial={{opacity: 0, y: 20, x:3}} animate={{opacity: 1, y: 0, x:0}} transition={{duration: "0.25", delay: delay[3]}} className='more-info'>
-                <Link to={'/about'}>Click to see more about me</Link>
+                <Link to={'/about'}>About me</Link>
             </motion.div>
 
             <Socials delay={delay[4]}></Socials>
