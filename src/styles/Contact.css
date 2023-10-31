@@ -8,6 +8,10 @@
     gap: 1rem;
 }
 
+.space-small{
+    height: 7rem;
+}
+
 form{
     display: flex;
     flex-direction: column;
@@ -54,5 +58,10 @@ textarea{
     border-radius: 5px;
     outline: none;
     color: black;
+}
+
+.home-link{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
