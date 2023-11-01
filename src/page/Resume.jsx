@@ -13,7 +13,7 @@ export const Resume = (props) => {
                 <motion.p
                     initial={{opacity: 0}} 
                     animate={{opacity: 1}} 
-                    transition={{duration: "0.25"}}  
+                    transition={{duration: "0.5", delay:0.25}}  
                     exit={{opacity:0}}
                     className='resume-text'>
                     Resume
@@ -21,7 +21,7 @@ export const Resume = (props) => {
             </div>
             <motion.div className='resume-container' exit={{opacity: 0}}>
                 <span className='space-small'></span>
-                <motion.h1 initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: "1"}}>Resume</motion.h1>
+                <motion.h1 initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: "0.5", delay:0.25}}>Resume</motion.h1>
             </motion.div>
         
         </>

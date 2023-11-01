@@ -16,7 +16,7 @@ export const Contact = (props) => {
             <motion.p
                 initial={{opacity: 0}} 
                 animate={{opacity: 1}} 
-                transition={{duration: "0.25"}}  
+                transition={{duration: "0.5", delay:0.25}}  
                 exit={{opacity:0}}
                 className='contact-text'>
                 Contact
@@ -25,7 +25,7 @@ export const Contact = (props) => {
             exit={{opacity: 0}} 
             initial={{opacity: 0}} 
             animate={{opacity: 1}} 
-            transition={{duration: "0.25"}}>
+            transition={{duration: "0.5", delay:0.25}}>
                 <span className='space-small'></span>
                 <motion.h1>Contact</motion.h1>
                 <motion.p>
@@ -40,7 +40,7 @@ export const Contact = (props) => {
                 <motion.div className='home-link'>
                     <Link to={'/'}>Go back home</Link>
                 </motion.div>
-                <Socials delay={0.3}></Socials>
+                <Socials delay={0.25}></Socials>
             </motion.div>
         </>
     )
