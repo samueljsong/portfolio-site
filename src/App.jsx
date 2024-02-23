@@ -25,8 +25,8 @@ function App() {
     const moveCursor = (e) => {
       cursorX.set(e.clientX - 41)
       cursorY.set(e.clientY - 41)
-      const x = e.clientX - 120
-      const y = e.clientY - 120
+      const x = e.clientX - 30
+      const y = e.clientY - 30
       setCursorXY({x, y});
     }
     window.addEventListener('mousemove', moveCursor)

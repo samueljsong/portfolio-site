@@ -5,6 +5,7 @@
     grid-column-start: 2;
     justify-self: center;
     width: 80%;
+    max-width: 47rem;
     gap: 1rem;
 }
 
@@ -45,4 +46,3 @@
     width: 2rem;
 
 }
-

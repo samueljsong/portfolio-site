@@ -47,7 +47,7 @@ export const Project = (props) => {
                 </motion.div>
 
                 {/* Phlo */}
-                <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: "0.5", delay:0.25}} className='project-card-container'>
+                {/* <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: "0.5", delay:0.25}} className='project-card-container'>
                     <div className='project-image-container2'></div>
                     <div className='project-info-container2'>
                         <p className='project-featured'>Featured Project</p>
@@ -68,7 +68,7 @@ export const Project = (props) => {
                             </a>
                         </div>
                     </div>
-                </motion.div>
+                </motion.div> */}
 
                 {/* Portfolio */}
                 <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: "0.5", delay:0.25}} className='project-card-container'>

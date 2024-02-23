@@ -7,7 +7,7 @@ export const Loading = (props) => {
     useEffect(() => {
         setTimeout(() => {
             props.setLoading(false);
-        }, 3000)
+        }, 2500)
     }, [])
 
     return(

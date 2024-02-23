@@ -26,8 +26,8 @@ body{
     position: fixed;
     left: 0;
     top: 0;
-    width: 5rem;
-    height: 5rem;
+    width: 3rem;
+    height: 3rem;
     border-radius: 50%;
     border: solid 1px white;
     z-index: 10000;
@@ -38,13 +38,13 @@ body{
     position: fixed;
     left: 0;
     top: 0;
-    width: 15rem;
-    height: 15rem;
+    width: 4rem;
+    height: 4rem;
     border-radius: 50%;
-    background-color: #689fde;  
+    border: solid 1px white;
     z-index: 10001;
     pointer-events: none;
-    filter: blur(10rem);
+
 }
 
 .transition-filter{
