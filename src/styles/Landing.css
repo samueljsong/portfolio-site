@@ -1,4 +1,4 @@
-@media (max-width: 375px){
+@media (max-width: 430px){
     .landing-container{
         display: flex;
         flex-direction: column;
@@ -49,7 +49,7 @@
     }
 }
 
-@media (min-width: 376px) and (max-width: 800px){
+@media (min-width: 431px) and (max-width: 800px){
     .landing-container{
         display: flex;
         flex-direction: column;
