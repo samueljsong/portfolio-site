@@ -26,26 +26,26 @@ export const Navbar = () => {
 
     return(
      
-            <div className='nav-container'>
-                <motion.div class="logo-container">
-                    <Link to={'/'} >{logo}</Link>
-                </motion.div>
+        <div className='nav-container'>
+            <motion.div class="logo-container">
+                <Link to={'/'} >{logo}</Link>
+            </motion.div>
 
-                <div className='page-directories'>
-                    <motion.div initial={initial} animate={animate} transition={{duration: 0.25}} className='directory-container'>
-                        <Link className='directory' to={'/about'}>About</Link>
-                    </motion.div>
-                    <motion.div initial={initial} animate={animate} transition={{duration: 0.25, delay: 0.15}} className='directory-container'>
-                        <Link className='directory' to={'/project'}>Project</Link>
-                    </motion.div>
-                    <motion.div initial={initial} animate={animate} transition={{duration: 0.25, delay:0.3}} className='directory-container'>
-                        <Link className='directory' to={'/resume'}>Resume</Link>
-                    </motion.div>
-                    <motion.div initial={initial} animate={animate} transition={{duration: 0.25, delay: 0.45}} className='directory-container'>
-                        <Link className='directory' to={'/contact'}>Contact</Link>
-                    </motion.div>
-                </div>
+            <div className='page-directories'>
+                <motion.div initial={initial} animate={animate} transition={{duration: 0.25}} className='directory-container'>
+                    <Link className='directory' to={'/about'}>About</Link>
+                </motion.div>
+                <motion.div initial={initial} animate={animate} transition={{duration: 0.25, delay: 0.15}} className='directory-container'>
+                    <Link className='directory' to={'/project'}>Project</Link>
+                </motion.div>
+                <motion.div initial={initial} animate={animate} transition={{duration: 0.25, delay:0.3}} className='directory-container'>
+                    <Link className='directory' to={'/resume'}>Resume</Link>
+                </motion.div>
+                <motion.div initial={initial} animate={animate} transition={{duration: 0.25, delay: 0.45}} className='directory-container'>
+                    <Link className='directory' to={'/contact'}>Contact</Link>
+                </motion.div>
             </div>
+        </div>
         
     )
 }

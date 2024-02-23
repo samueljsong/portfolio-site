@@ -4,62 +4,144 @@
     color: white;
 }
 
-body{
-    height: 100vh;
-    width: 100%;
-    background: #020a13;
-    /* this is for grid */
-    background-image: linear-gradient(rgba(255, 255, 255, 0.080) 1px, transparent 1px), 
-    linear-gradient(90deg, rgba(255, 255, 255, 0.080) 1px, transparent 1px);
-    background-size: 20rem 20rem;
+@media (max-width: 375px){
+    #cursor{
+        display: none;
+    }
+
+    body{
+        height: 100vh;
+        width: 100%;
+        background: #020a13;
+        /* this is for grid */
+        background-image: linear-gradient(rgba(255, 255, 255, 0.080) 1px, transparent 1px), 
+        linear-gradient(90deg, rgba(255, 255, 255, 0.080) 1px, transparent 1px);
+        background-size: 20rem 20rem;
+    }
+    
+    .container{
+        height: 100vh;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 5% auto 5%;
+        grid-template-rows: 5rem auto;
+    }
+    
+    .transition-filter{
+        position: absolute;
+        z-index: 5;
+        height: 100vh;
+        width: 100%;
+        background-color: transparent;
+        pointer-events: none;
+    }
+    
+    .transition-true{
+        background-color: black;
+    }
+    
+    .transition-false{
+        background-color: transparent;
+    }
 }
 
-.container{
-    height: 100vh;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 20% auto 20%;
-    grid-template-rows: 7rem auto;
+@media (min-width: 376px) and (max-width: 800px){
+
+    body{
+        height: 100vh;
+        width: 100%;
+        background: #020a13;
+        /* this is for grid */
+        background-image: linear-gradient(rgba(255, 255, 255, 0.080) 1px, transparent 1px), 
+        linear-gradient(90deg, rgba(255, 255, 255, 0.080) 1px, transparent 1px);
+        background-size: 20rem 20rem;
+    }
+    
+    .container{
+        height: 100vh;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 5% auto 5%;
+        grid-template-rows: 7rem auto;
+    }
+    
+    .transition-filter{
+        position: absolute;
+        z-index: 5;
+        height: 100vh;
+        width: 100%;
+        background-color: transparent;
+        pointer-events: none;
+    }
+    
+    .transition-true{
+        background-color: black;
+    }
+    
+    .transition-false{
+        background-color: transparent;
+    }
 }
 
-#cursor-border{
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 3rem;
-    height: 3rem;
-    border-radius: 50%;
-    border: solid 1px white;
-    z-index: 10000;
-    pointer-events: none;
+@media (min-width: 801px){
+    body{
+        height: 100vh;
+        width: 100%;
+        background: #020a13;
+        /* this is for grid */
+        background-image: linear-gradient(rgba(255, 255, 255, 0.080) 1px, transparent 1px), 
+        linear-gradient(90deg, rgba(255, 255, 255, 0.080) 1px, transparent 1px);
+        background-size: 20rem 20rem;
+    }
+    
+    .container{
+        height: 100vh;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 20% auto 20%;
+        grid-template-rows: 7rem auto;
+    }
+    
+    #cursor-border{
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        border: solid 1px white;
+        z-index: 10000;
+        pointer-events: none;
+    }
+    
+    #cursor{
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        border: solid 1px white;
+        z-index: 10001;
+        pointer-events: none;
+    
+    }
+    
+    .transition-filter{
+        position: absolute;
+        z-index: 5;
+        height: 100vh;
+        width: 100%;
+        background-color: transparent;
+        pointer-events: none;
+    }
+    
+    .transition-true{
+        background-color: black;
+    }
+    
+    .transition-false{
+        background-color: transparent;
+    }
 }
 
-#cursor{
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 4rem;
-    height: 4rem;
-    border-radius: 50%;
-    border: solid 1px white;
-    z-index: 10001;
-    pointer-events: none;
-
-}
-
-.transition-filter{
-    position: absolute;
-    z-index: 5;
-    height: 100vh;
-    width: 100%;
-    background-color: transparent;
-    pointer-events: none;
-}
-
-.transition-true{
-    background-color: black;
-}
-
-.transition-false{
-    background-color: transparent;
-}
