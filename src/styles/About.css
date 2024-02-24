@@ -24,9 +24,8 @@
         font-family: 'Playfair Display', serif;
         font-size: 5rem;
         color: rgba(255, 255, 255, 0.056);
+        bottom: 0;
         font-weight: bold;
-        justify-self: start;
-        align-self: end;
     }
     
     .about-details{
@@ -116,11 +115,10 @@
         position: fixed;
         z-index: -1;
         font-family: 'Playfair Display', serif;
-        font-size:8rem;
+        font-size: 10rem;
         color: rgba(255, 255, 255, 0.056);
+        bottom: 0;
         font-weight: bold;
-        justify-self: start;
-        align-self: end;
     }
     
     .about-details{
@@ -208,11 +206,10 @@
         position: fixed;
         z-index: -1;
         font-family: 'Playfair Display', serif;
-        font-size: 18rem;
+        font-size: 15rem;
         color: rgba(255, 255, 255, 0.056);
+        bottom: 0;
         font-weight: bold;
-        justify-self: start;
-        align-self: end;
     }
     
     .about-details{
