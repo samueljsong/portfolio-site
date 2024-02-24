@@ -2,7 +2,6 @@ import '../styles/About.css'
 
 //dependencies
 import { motion } from 'framer-motion'
-import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { html } from '../assets/Svg'
 import { css } from '../assets/Svg'
@@ -45,7 +44,7 @@ export const About = (props) => {
                 <div className='about-tech-stack'>
                     <motion.div 
                         initial={{opacity: 0, y: 20, x:3}} 
-                        animate={{opacity: 1, y:0, x:0, transition: {duration: 0.5, delay:.75}}} 
+                        animate={{opacity: 1, y:0, x:0, transition: {duration: 0.5, delay:.75}}}
                         className='tech-stack'>
                         <motion.div className='tech-stack-box'
                             whileHover={{y:-10}}>

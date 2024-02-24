@@ -1,0 +1,43 @@
+@media (max-width: 430px){
+    .pd-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .pd-img-box{
+        display: grid;
+        height: 13rem;
+        width: 100%;
+        border: solid 1px white;
+        border-radius: 10px;
+    }
+
+    .pd-description-container{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pd-f{
+        font-size: 0.8rem;
+    }
+
+    .pd-description{
+        font-size: 0.8rem;
+    }
+
+
+}
+  
+@media (min-width: 431px) and (max-width: 800px){
+
+}
+
+@media (min-width: 801px){
+    
+}
+  

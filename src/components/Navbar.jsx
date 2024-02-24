@@ -3,6 +3,7 @@ import '../styles/Navbar.css'
 //Dependencies
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
+import snow from "../assets/snow.png"
 
 export const Navbar = () => {
 
@@ -28,7 +29,7 @@ export const Navbar = () => {
      
         <div className='nav-container'>
             <motion.div class="logo-container">
-                <Link to={'/'} >{logo}</Link>
+                <Link to={'/'} ><img className='logo' src={snow} alt="none"/></Link>
             </motion.div>
 
             <div className='page-directories'>
