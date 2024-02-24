@@ -7,21 +7,22 @@
         height: 100%;
         justify-content: space-between;
         align-items: end;
+        place-items: center;
     }
     
     .logo{
-        height: 3rem;
-        width: 3rem;
+        height: 2rem;
+        width: 2rem;
     }
     
     .page-directories{
-        display: none;
+        display: flex;
         gap: 1rem;
     }
     
     .directory{
         text-decoration: none;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     
     .directory-container{
@@ -29,7 +30,7 @@
         display: grid;
         place-items: center;
         height: 2rem;
-        width: 5rem;
+        width: auto;
     }
     
     .directory-container:hover{
@@ -56,6 +57,7 @@
         height: 100%;
         justify-content: space-between;
         align-items: end;
+        place-items: center;
     }
     
     .logo{
@@ -65,13 +67,12 @@
     
     .page-directories{
         display: flex;
-        gap: 1rem;
+        gap: 0.2rem;
     }
     
     .directory{
         text-decoration: none;
         font-size: 0.9rem;
-        display: none;
     }
     
     .directory-container{
@@ -103,9 +104,12 @@
         grid-row-start: 1;
         grid-column-start: 2;
         width: 100%;
+        max-width: 50rem;
         height: 100%;
         justify-content: space-between;
+        justify-self: center;
         align-items: end;
+        place-items: center;
     }
     
     .logo{
