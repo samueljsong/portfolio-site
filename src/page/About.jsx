@@ -32,7 +32,7 @@ export const About = (props) => {
             </div>
             
             <motion.div className='about-container' exit={{opacity: 0}}>
-                <span className='space-small'></span>
+                <span className='about-space'></span>
                 <motion.h1 initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: "0.5", delay:0.25}}>About</motion.h1>
                 <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: "0.5", delay:0.25}} className='about-details'>
                    <p>Hello, my name is Samuel Song and I love working with the web to perfect my craft in web development.
