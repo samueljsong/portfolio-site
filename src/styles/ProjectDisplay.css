@@ -23,11 +23,11 @@
     }
 
     .pd-f{
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
 
     .pd-description{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         width: 100%;
         height: auto;
         background: rgba(255, 255, 255, 0.05);
@@ -46,9 +46,8 @@
     }
 
     .pd-stack{
-        font-size: 0.9rem;
-        display: flex;
-        gap: 1rem;
+        font-size: 0.7rem;
+        word-spacing: 0.5rem;
     }
 
     .pd-link{
@@ -57,11 +56,10 @@
     }
 
     .pd-link img{
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 1.2rem;
+        height: 1.2rem;
         cursor: pointer;
     }
-
 
 }
   

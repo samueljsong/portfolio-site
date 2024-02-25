@@ -8,7 +8,7 @@ import {motion} from 'framer-motion'
 import git from "../assets/github.png"
 import link from "../assets/link.png"
 
-export const ProjectDisplay = () => {
+export const ProjectDisplay = ({p}) => {
 
     return(
         
@@ -17,20 +17,17 @@ export const ProjectDisplay = () => {
                 
             </div>
             <div className='pd-description-container'>
-                <p className='pd-f blue-text'>Featured Project</p>
-                <h3>Flaker</h3>
+                <p className='pd-f blue-text'>Featured Project {p.pnum}</p>
+                <h3>{p.pt}</h3>
                 <div className='pd-description'>
-                    <p className='pd-d-text'>A web application for users to plan out various events with their friends. CRUD application with great UI/UX</p>
+                    <p className='pd-d-text'>{p.pd}</p>
                 </div>
                 <div className='pd-stack'>
-                    <p>React</p>
-                    <p>NodeJS</p>
-                    <p>MySQL</p>
-                    <p>Framer Motion</p>
+                    <p>{p.ps}</p>
                 </div>
                 <div className='pd-link'>
-                    <a href="https://flaker.netlify.app/" target='blank'><img src={link} alt="" /></a>
-                    <a href="https://github.com/samueljsong/Flaker-Client" target='blank'><img src={git} alt="" /></a>
+                    <a href={p.pl} target='blank'><img src={link} alt="" /></a>
+                    <a href={p.pg} target='blank'><img src={git} alt="" /></a>
                 </div>
             </div>
         </div>
