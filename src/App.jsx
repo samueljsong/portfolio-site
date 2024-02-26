@@ -10,6 +10,7 @@ import { About } from './page/About';
 import { ContactPage } from './page/ContactPage';
 import { Resume } from './page/Resume';
 import { Project } from './page/Project';
+import { Thanks } from './page/Thanks';
 
 //Components
 import { Navbar } from './components/Navbar';
@@ -75,6 +76,9 @@ function App() {
                 }/>
                 <Route path='/contact' element={
                   <ContactPage/>
+                }/>
+                <Route path='/thanks' element={
+                  <Thanks/>
                 }/>
               </Routes>
             </div>

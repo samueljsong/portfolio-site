@@ -1,0 +1,144 @@
+@media (max-width: 430px){
+    .thanks-space{
+        height: 15rem;
+    }
+
+    .thanks-container{
+        grid-column-start: 2;
+        grid-row-start: 2;
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        gap: 1rem;
+        height: auto;
+        width: 100%;
+    }
+
+    .thanks-title{
+        font-size: 1.5rem;
+    }
+
+    .thanks-text{
+        font-size: 0.8rem;
+    }
+
+    .thanks-blue{
+        color: #64ffda;
+    }
+
+    .thanks-btn{
+        width: 7rem;
+        height: 2.5rem;
+        border-radius: 5px;
+        cursor: pointer;
+        display: grid;
+        place-items: center;
+        text-decoration: none;
+    }
+
+    .thanks-btn-div{
+        height: 100%;
+        width: 100%;
+        display: grid;
+        place-items: center;
+        background-color: transparent;
+        border: solid 1px white;
+        border-radius: 5px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 431px) and (max-width: 800px){
+    .thanks-space{
+        height: 15rem;
+    }
+
+    .thanks-container{
+        grid-column-start: 2;
+        grid-row-start: 2;
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        gap: 1rem;
+        height: auto;
+        width: 100%;
+    }
+
+    .thanks-title{
+        font-size: 1.9rem;
+    }
+
+    .thanks-text{
+        font-size: 0.8rem;
+    }
+
+    .thanks-blue{
+        color: #64ffda;
+    }
+
+    .thanks-btn{
+        width: 7rem;
+        height: 2.5rem;
+        border-radius: 5px;
+        cursor: pointer;
+        display: grid;
+        place-items: center;
+        text-decoration: none;
+    }
+
+    .thanks-btn-div{
+        height: 100%;
+        width: 100%;
+        display: grid;
+        place-items: center;
+        background-color: transparent;
+        border: solid 1px white;
+        border-radius: 5px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 801px){
+    .thanks-space{
+        height: 15rem;
+    }
+
+    .thanks-container{
+        grid-column-start: 2;
+        grid-row-start: 2;
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        gap: 1rem;
+        height: auto;
+        width: 100%;
+    }
+
+    .thanks-title{
+        font-size: 3rem;
+    }
+
+    .thanks-blue{
+        color: #64ffda;
+    }
+
+    .thanks-btn{
+        width: 10rem;
+        height: 3rem;
+        border-radius: 5px;
+        cursor: pointer;
+        display: grid;
+        place-items: center;
+        text-decoration: none;
+    }
+
+    .thanks-btn-div{
+        height: 100%;
+        width: 100%;
+        display: grid;
+        place-items: center;
+        background-color: transparent;
+        border: solid 1px white;
+        border-radius: 5px;
+    }
+}

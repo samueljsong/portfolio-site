@@ -1,17 +1,63 @@
 import '../styles/Contact.css'
 
 //Dependencies
-import { motion } from 'framer-motion'
-import { useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import { motion, warning } from 'framer-motion'
+import { useEffect, useState } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
+import emailjs from "@emailjs/browser"
 
 //Components
 import { Socials } from '../components/Socials'
 
+
+
 export const ContactPage = (props) => {
+    const navigate = useNavigate();
+    const [name, setName] = useState("")
+    const [email, setEmail] = useState("")
+    const [message, setMessage] = useState("")
+
+    const onNameChangeHandler = (e) => {
+        setName(e.target.value)
+    }
+
+    const onEmailChangeHandler =(e) => {
+        setEmail(e.target.value)
+    }
+
+    const onMessageChangeHandler = (e) => {
+        setMessage(e.target.value)
+    }
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+
+        const serviceID = 'service_dilnvz6'
+        const templateID = 'template_qx3ufio'
+        const publickey ='Z-ZjUKk4TfZsO2veS'
+
+        const templateParams = {
+            from_name: name,
+            from_email: email,
+            to_name: "Samuel",
+            message: message
+        }
+
+        emailjs.send(serviceID, templateID, templateParams, publickey)
+            .then((response) => {
+                console.log('Email sent successfully!', response)
+                setName('');
+                setEmail('');
+                setMessage('')
+                navigate('/thanks')
+            })
+            .catch((error) => {
+                alert("Cannot send email...")
+                console.error("Error in sending email:", error)
+            })
+    }
 
     return(
-
         <>
             <motion.p
                 initial={{opacity: 0}} 
@@ -31,15 +77,18 @@ export const ContactPage = (props) => {
                 <motion.p className='contact-description'>
                     Send me an email to get in touch at semuall0108@gmail.com
                 </motion.p>
-                <form action="https://formsubmit.co/semuall0108@gmail.com" method="POST">
+                <form onSubmit={handleSubmit}>
                     <div className='input-box'>
-                        <input className='name-input' type="text" name='name' required placeholder='Name'/>
+                        <input className='name-input' type="text" name='name' required placeholder='Name'
+                        onChange={onNameChangeHandler}/>
                     </div>
                     <div className='input-box'>
-                        <input className='email-input' type="email" name='email' required placeholder='Email'/>
+                        <input className='email-input' type="email" name='email' required placeholder='Email'
+                        onChange={onEmailChangeHandler}/>
                     </div>
                     <div className='input-box'>
-                        <textarea className='message-input' type="text" name='message' required placeholder='Message'></textarea>
+                        <textarea className='message-input' type="text" name='message' required placeholder='Message'
+                        onChange={onMessageChangeHandler}></textarea>
                     </div>
                     <button className='submit-btn' type='submit'><p className='btn-text'>Send</p></button>
                 </form>

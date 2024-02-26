@@ -20,8 +20,8 @@
         font-size: 5rem;
         color: rgba(255, 255, 255, 0.056);
         font-weight: bold;
-        justify-self: start;
-        align-self: end;
+        bottom: 0;
+
     }
 }
 
@@ -47,8 +47,7 @@
         font-size: 5rem;
         color: rgba(255, 255, 255, 0.056);
         font-weight: bold;
-        justify-self: start;
-        align-self: end;
+        bottom: 0;
     }
 }
 
@@ -75,8 +74,7 @@
         font-size: 15rem;
         color: rgba(255, 255, 255, 0.056);
         font-weight: bold;
-        justify-self: start;
-        align-self: end;
+        bottom: 0;
     }
 
     .resume-space{
