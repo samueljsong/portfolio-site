@@ -30,6 +30,7 @@ export const Project = (props) => {
             <div className='p-container'>
                 <span className='p-space'></span>
                 <motion.h1 initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: "0.5", delay:0.25}}>Project</motion.h1>
+                <span className='p-space-small'></span>
                 <motion.div
                 initial={{opacity: 0}} 
                 animate={{opacity: 1}} 
