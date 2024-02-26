@@ -13,9 +13,9 @@ export const ProjectDisplay = ({p}) => {
     return(
         
         <div className='pd-container'>
-            <div className='pd-img-box'>
-                
-            </div>
+            <a href={p.pl} target='blank' className='pd-img-box'>
+                <img className='pd-img' src={p.pi} alt="" />
+            </a>
             <div className='pd-description-container'>
                 <p className='pd-f blue-text'>Featured Project {p.pnum}</p>
                 <h3 className='pd-name'>{p.pt}</h3>

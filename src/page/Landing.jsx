@@ -40,7 +40,7 @@ export const Landing = (props) => {
                     animate={{opacity: 1, y: 0, x:0}} 
                     transition={{duration: "0.25", delay: delay[1]}} 
                     className='info-1'>
-                        A full-stack, front-end, and JavaScript developer. Most of my time is spent on creating {<span><Link to={'/project'} style={{color: "#64ffda"}}>PROJECTS</Link></span>} with exceptional digital experiences. 
+                        A full-stack, front-end, JavaScript developer, and a database specialist. Most of my time is spent on creating {<span><Link to={'/project'} style={{color: "#64ffda"}}>PROJECTS</Link></span>} with exceptional digital experiences. 
                         Currently, I'm focused on implementing cutting-edge technologies to further enhance interactive experiences on the web.
                 </motion.p>
                 
