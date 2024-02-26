@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 //Components
 import { Socials } from '../components/Socials'
 
-export const Contact = (props) => {
+export const ContactPage = (props) => {
 
     return(
 

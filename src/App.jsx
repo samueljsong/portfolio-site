@@ -7,7 +7,7 @@ import { Routes, Route } from 'react-router-dom'
 //Pages
 import { Landing } from './page/Landing';
 import { About } from './page/About';
-import { Contact } from './page/Contact';
+import { ContactPage } from './page/ContactPage';
 import { Resume } from './page/Resume';
 import { Project } from './page/Project';
 
@@ -74,7 +74,7 @@ function App() {
                   <Resume/>
                 }/>
                 <Route path='/contact' element={
-                  <Contact/>
+                  <ContactPage/>
                 }/>
               </Routes>
             </div>
