@@ -38,6 +38,10 @@
         height: 1rem;
     }
 
+    .p-b-space{
+        height: 3rem;
+    }
+
     .p-container{
         grid-row-start: 2;
         grid-column-start: 2;
@@ -75,6 +79,10 @@
     
     .p-space{
         height: 1rem;
+    }
+
+    .p-b-space{
+        height: 3rem;
     }
 
     .p-container{

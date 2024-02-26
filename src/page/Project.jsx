@@ -61,7 +61,7 @@ export const Project = (props) => {
                         </svg>
                     </motion.div>
                 </motion.div>
-                <span className='p-space'></span>
+                <span className='p-b-space'></span>
             </div>
         </>
     )

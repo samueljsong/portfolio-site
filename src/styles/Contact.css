@@ -1,78 +1,291 @@
-.contact-text{
-    position: fixed;
-    z-index: -1;
-    font-family: 'Playfair Display', serif;
-    font-size: 20rem;
-    color: rgba(255, 255, 255, 0.056);
-    font-weight: bold;
+@media (max-width: 430px){
+    .contact-text{
+        position: fixed;
+        z-index: -1;
+        font-family: 'Playfair Display', serif;
+        font-size: 5rem;
+        color: rgba(255, 255, 255, 0.056);
+        font-weight: bold;
+        
+        bottom: 0;
+    }
+
+    .contact-description{
+        font-size: 0.8rem;
+    }
     
-    bottom: 0;
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+        grid-row-start: 2;
+        grid-column-start: 2;
+        justify-self: center;
+        
+        gap: 1rem;
+    }
+    
+    .space-small{
+        height: 7rem;
+    }
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    input,
+    textarea{
+        background-color: transparent;
+        border: none;
+        font-size: 0.8rem;
+        width: 90%;
+        height: 90%;
+    }
+
+    .input-box{
+        background-color: transparent;
+        border: solid 1px rgba(255, 255, 255, 0.419);
+        border-radius: 5px;
+        font-size: 0.9rem;
+        width: 100%;
+        display: grid;
+        place-items: center;
+    }
+    
+    input:focus,
+    textarea:focus{
+        outline: none;
+    }
+    
+    textarea{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        resize: none;
+    }
+    
+    .name-input{
+        height: 3rem;
+    }
+    
+    .email-input{
+        height: 3rem;
+    }
+    
+    .message-input{
+        height: 10rem;
+    }
+    
+    .submit-btn{
+        width: 15rem;
+        height: 3rem;
+        border-radius: 5px;
+        border: none;
+        color: black;
+        cursor: pointer;
+        font: bold;
+    }
+    
+    .home-link{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
 }
 
-.contact-container{
-    display: flex;
-    flex-direction: column;
-    grid-row-start: 2;
-    grid-column-start: 2;
-    justify-self: center;
-    width: 80%;
-    gap: 1rem;
+@media (min-width: 431px) and (max-width: 800px){
+    .contact-text{
+        position: fixed;
+        z-index: -1;
+        font-family: 'Playfair Display', serif;
+        font-size: 5rem;
+        color: rgba(255, 255, 255, 0.056);
+        font-weight: bold;
+        
+        bottom: 0;
+    }
+
+    .contact-description{
+        font-size: 0.8rem;
+    }
+    
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+        grid-row-start: 2;
+        grid-column-start: 2;
+        justify-self: center;
+        width: 100%;
+        gap: 1rem;
+    }
+    
+    .space-small{
+        height: 7rem;
+    }
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    input,
+    textarea{
+        background-color: transparent;
+        border: none;
+        font-size: 0.9rem;
+        width: 90%;
+        height: 90%;
+    }
+
+    .input-box{
+        background-color: transparent;
+        border: solid 1px rgba(255, 255, 255, 0.419);
+        border-radius: 5px;
+        font-size: 0.9rem;
+        width: 100%;
+        display: grid;
+        place-items: center;
+    }
+    
+    input:focus,
+    textarea:focus{
+        outline: none;
+    }
+    
+    textarea{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        resize: none;
+    }
+    
+    .name-input{
+        height: 3rem;
+    }
+    
+    .email-input{
+        height: 3rem;
+    }
+    
+    .message-input{
+        height: 10rem;
+    }
+    
+    .submit-btn{
+        width: 15rem;
+        height: 3rem;
+        border-radius: 5px;
+        outline: none;
+        color: black;
+        cursor: pointer;
+    }
+    
+    .home-link{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
 }
 
-.space-small{
-    height: 7rem;
+@media (min-width: 801px){
+
+    .c-space{
+        height: 5rem;
+    }
+    .contact-text{
+        position: fixed;
+        z-index: -1;
+        font-family: 'Playfair Display', serif;
+        font-size: 15rem;
+        color: rgba(255, 255, 255, 0.056);
+        font-weight: bold;
+        
+        bottom: 0;
+    }
+    
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+        grid-row-start: 2;
+        grid-column-start: 2;
+        justify-self: center;
+        width: 100%;
+        gap: 1rem;
+    }
+    
+    .space-small{
+        height: 7rem;
+    }
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    input,
+    textarea{
+        background-color: transparent;
+        border: none;
+        font-size: 0.9rem;
+        width: 90%;
+        height: 90%;
+    }
+
+    .input-box{
+        background-color: transparent;
+        border: solid 1px rgba(255, 255, 255, 0.419);
+        border-radius: 5px;
+        font-size: 0.9rem;
+        width: 30rem;
+        display: grid;
+        place-items: center;
+    }
+    
+    input:focus,
+    textarea:focus{
+        outline: none;
+    }
+    
+    textarea{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        resize: none;
+    }
+    
+    .name-input{
+        height: 3rem;
+    }
+    
+    .email-input{
+        height: 3rem;
+    }
+    
+    .message-input{
+        height: 10rem;
+    }
+    
+    .submit-btn{
+        width: 15rem;
+        height: 3rem;
+        border-radius: 5px;
+        outline: none;
+        color: black;
+        cursor: pointer;
+    }
+    
+    .home-link{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
 }
 
-form{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-input,
-textarea{
-    background-color: transparent;
-    border: solid 1px rgba(255, 255, 255, 0.419);
-    border-radius: 5px;
-    font-size: 0.9rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    width: 30rem;
-}
-
-input:focus,
-textarea:focus{
-    outline: none;
-}
-
-textarea{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    resize: none;
-}
-
-.name-input{
-    height: 3rem;
-}
-
-.email-input{
-    height: 3rem;
-}
-
-.message-input{
-    height: 10rem;
-}
-
-.submit-btn{
-    width: 15rem;
-    height: 3rem;
-    border-radius: 5px;
-    outline: none;
+.btn-text{
     color: black;
+    font-weight: bold;
 }
 
-.home-link{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
+
+
+
 
