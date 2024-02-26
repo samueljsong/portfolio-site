@@ -64,10 +64,133 @@
 }
   
 @media (min-width: 431px) and (max-width: 800px){
+    .pd-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        gap: 1rem;
+    }
 
+    .pd-img-box{
+        display: grid;
+        height: 25rem;
+        width: 100%;
+        border: solid 1px white;
+    }
+
+    .pd-description-container{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .pd-f{
+        font-size: 0.9rem;
+    }
+
+    .pd-name{
+        font-size: 1.5rem;
+    }
+
+    .pd-description{
+        font-size: 0.9rem;
+        width: 100%;
+        height: auto;
+        background: rgba(255, 255, 255, 0.05);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(7px);
+        -webkit-backdrop-filter: blur(7px);
+        display: grid;
+        grid-template-columns: 5% auto 5%;
+        place-items: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .pd-d-text{
+        grid-column-start: 2;
+    }
+
+    .pd-stack{
+        font-size: 0.9rem;
+        word-spacing: 0.5rem;
+    }
+
+    .pd-link{
+        display: flex;
+        gap: 1rem;
+    }
+
+    .pd-link img{
+        width: 1.5rem;
+        height: 1.5rem;
+        cursor: pointer;
+    }
 }
 
 @media (min-width: 801px){
-    
+    .pd-container{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .pd-img-box{
+        display: grid;
+        height: 15rem;
+        width: 100%;
+        border: solid 1px white;
+    }
+
+    .pd-description-container{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .pd-f{
+        font-size: 0.7rem;
+    }
+
+    .pd-description{
+        font-size: 0.8rem;
+        width: 100%;
+        height: auto;
+        background: rgba(255, 255, 255, 0.05);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(7px);
+        -webkit-backdrop-filter: blur(7px);
+        display: grid;
+        grid-template-columns: 5% auto 5%;
+        place-items: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .pd-d-text{
+        grid-column-start: 2;
+    }
+
+    .pd-stack{
+        font-size: 0.7rem;
+        word-spacing: 0.5rem;
+    }
+
+    .pd-link{
+        display: flex;
+        gap: 1rem;
+    }
+
+    .pd-link img{
+        width: 1.2rem;
+        height: 1.2rem;
+        cursor: pointer;
+    }
 }
   

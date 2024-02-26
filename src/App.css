@@ -120,6 +120,7 @@
         display: grid;
         grid-template-columns: 10% auto 10%;
         grid-template-rows: 7rem auto;
+        justify-content: center;
     }
     
     #cursor-border{

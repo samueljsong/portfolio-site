@@ -18,7 +18,7 @@ export const ProjectDisplay = ({p}) => {
             </div>
             <div className='pd-description-container'>
                 <p className='pd-f blue-text'>Featured Project {p.pnum}</p>
-                <h3>{p.pt}</h3>
+                <h3 className='pd-name'>{p.pt}</h3>
                 <div className='pd-description'>
                     <p className='pd-d-text'>{p.pd}</p>
                 </div>
