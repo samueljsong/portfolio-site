@@ -133,10 +133,6 @@
 
 @media (min-width: 801px){
 
-    .p-space-small{
-        height: 1rem;
-    }
-
     .pd-container{
         display: flex;
         width: 100%;
@@ -146,7 +142,7 @@
 
     .pd-img-box{
         display: grid;
-        height: 17rem;
+        height: 15rem;
         width: 100%;
         border: solid 1px white;
     }
@@ -160,15 +156,15 @@
     }
 
     .pd-f{
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
 
     .pd-name{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .pd-description{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         width: 100%;
         height: auto;
         background: rgba(255, 255, 255, 0.05);
@@ -187,7 +183,7 @@
     }
 
     .pd-stack{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         word-spacing: 0.5rem;
     }
 
@@ -197,8 +193,8 @@
     }
 
     .pd-link img{
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 1.2rem;
+        height: 1.2rem;
         cursor: pointer;
     }
 }

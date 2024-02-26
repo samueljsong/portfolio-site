@@ -119,7 +119,7 @@
     
     .page-directories{
         display: flex;
-        gap: 1rem;
+        gap: 2rem;
     }
     
     .directory{
@@ -132,7 +132,7 @@
         display: grid;
         place-items: center;
         height: 2rem;
-        width: 5rem;
+        width: auto;
     }
     
     .directory-container:hover{

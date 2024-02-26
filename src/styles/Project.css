@@ -1,7 +1,7 @@
 @media (max-width: 430px){
 
     .p-space{
-        height: 3rem;
+        height: 1rem;
     }
 
     .p-container{
@@ -35,7 +35,7 @@
 
 @media (min-width: 431px) and (max-width: 800px){
     .p-space{
-        height: 3rem;
+        height: 1rem;
     }
 
     .p-container{
@@ -68,8 +68,13 @@
 }
 
 @media (min-width: 801px){
+
+    .p-space-small{
+        height: 1rem;
+    }
+    
     .p-space{
-        height: 3rem;
+        height: 1rem;
     }
 
     .p-container{

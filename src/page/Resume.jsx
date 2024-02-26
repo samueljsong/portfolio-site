@@ -20,7 +20,7 @@ export const Resume = (props) => {
                 </motion.p>
             </div>
             <motion.div className='resume-container' exit={{opacity: 0}}>
-                <span className='space-small'></span>
+                
                 <motion.h1 initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: "0.5", delay:0.25}}>Resume</motion.h1>
             </motion.div>
         
