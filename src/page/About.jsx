@@ -34,11 +34,9 @@ export const About = (props) => {
                 <span className='about-space'></span>
                 <motion.h1 initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: "0.5", delay:0.25}}>About</motion.h1>
                 <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: "0.5", delay:0.25}} className='about-details'>
-                   <p>Hello, my name is <span className='blue-text'>Samuel Song</span> and I love working with the web to perfect my craft in web development and full stack.
-                    This goal first started when I stumbled across multiple websites that showed me the <span className='blue-text'>true potential of the web. </span>
-                    Ever since, I would attempt to figure out how certain features were implemented, learning lots on the way.</p> 
+                   <p>Hello, my name is <span className='blue-text'>Samuel Song</span> and I love working with the web to perfect my craft in web development and full stack.</p>
                     <p>
-                        Here are some of the technologies I am proficient with and have used to create my projects.
+                        Here are some of the technologies I am proficient with.
                     </p>
                 </motion.div>
                 <div className='about-tech-stack'>

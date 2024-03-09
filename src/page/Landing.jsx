@@ -49,8 +49,7 @@ export const Landing = (props) => {
                     animate={{opacity: 1, y: 0, x:0}} 
                     transition={{duration: "0.25", delay: delay[2]}} 
                     className='info-2'>
-                        When I'm not crafting immersive web experiences, I revel in the enchanting world of paper, whether it be romance, comedy, or motivational.
-                        As a food fanatic, you can also find me binge watching all seasons of Kitchen Nightmare. Feel free to {<span><Link to={'/contact'} style={{color: "#64ffda"}}>CONTACT ME</Link></span>}.
+                        Feel free to {<span><Link to={'/contact'} style={{color: "#64ffda"}}>CONTACT ME</Link></span>}.
                 </motion.p>
                 
                 <motion.div initial={{opacity: 0, y: 20, x:3}} animate={{opacity: 1, y: 0, x:0}} transition={{duration: "0.25", delay: delay[3]}} className='more-info'>
